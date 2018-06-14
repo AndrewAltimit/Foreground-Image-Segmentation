@@ -1,5 +1,5 @@
 # Overview
-GrabCut implementation using Python and OpenCV. See the uploaded PDF for implementation details and experimental results. Examples used in the paper can be found in the examples directory with their corresponding source images and mask definitions.
+Foreground image segmentation using Python and OpenCV. See the uploaded PDF for implementation details and experimental results. Examples used in the paper can be found in the examples directory with their corresponding source images and mask definitions.
 
 ## Prerequisites
 * Python 3.* https://www.python.org/download/
