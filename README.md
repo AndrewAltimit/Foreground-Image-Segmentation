@@ -12,13 +12,14 @@ Foreground image segmentation using Python and OpenCV. See the uploaded PDF for 
 
 The mask file should consist of rectangle definitions in the form: top left x, top left y, bottom right x, bottom right y. The first line defines the bounding box and all other lines define known foreground and background areas. These definitions should be proceeded with a 0 (background) or a 1 (foreground).
 
-Example:
+***Example Mask***
 
 	36,76,831,785
 	0,42,76,345,261
 	
-Area of interest: (36,76) (831,785)
-Background: (42,76) (345,261)
+Area of interest (all else is background): (36,76) (831,785)
+
+Additional Background: (42,76) (345,261)
 
 
 ***Performing a Cut***
